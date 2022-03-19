@@ -1,0 +1,14 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: i.MX U-Boot suppporting i.MX reference boards.
+SUMMARY: Universal Boot Loader for embedded devices
+RDEPENDS_u-boot-edm: u-boot-uenv
+SECTION: base
+PKG_u-boot-edm: u-boot-edm
+FILES_u-boot-edm: /boot /etc
+FILES_INFO: {"/boot/SPL-pico-imx7-2018.03-r0": 56320, "/boot/SPL": 24, "/boot/u-boot-pico-imx7-2018.03-r0.img": 564520, "/boot/u-boot.img": 31}
+PKGSIZE_u-boot-edm: 620895

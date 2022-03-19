@@ -1,0 +1,11 @@
+cpu.c:106:5:get_imx_reset_cause	0	static
+cpu.c:167:13:get_som_type	8	static
+cpu.c:205:13:get_imx_type	0	static
+cpu.c:344:5:cpu_eth_init	0	static
+cpu.c:360:5:cpu_mmc_init	0	static
+cpu.c:380:6:arch_preboot_os	0	static
+cpu.c:411:6:set_chipselect_size	16	static
+cpu.c:457:5:get_cpu_speed_grade_hz	8	static
+cpu.c:494:5:get_cpu_temp_grade	0	static
+cpu.c:263:5:print_cpuinfo	32	static
+cpu.c:526:18:get_boot_device	0	static

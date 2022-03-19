@@ -1,0 +1,1 @@
+cmd_u-boot.img := ./tools/mkimage -A arm -T firmware -C none -O u-boot -a 0x87800000 -e 0 -n "U-Boot 2018.03""-ce1e3c9d29948853203c8a5805e93908daa8fa2a+gce1e3c9d29 for pico-imx7d board" -d u-boot.bin u-boot.img 

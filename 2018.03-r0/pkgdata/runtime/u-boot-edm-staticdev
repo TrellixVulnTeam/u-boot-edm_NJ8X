@@ -1,0 +1,14 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-edm-staticdev: i.MX U-Boot suppporting i.MX reference boards.  This package contains static libraries for software development.
+SUMMARY_u-boot-edm-staticdev: Universal Boot Loader for embedded devices - Development files (Static Libraries)
+RDEPENDS_u-boot-edm-staticdev: u-boot-edm-dev (= 2018.03-r0)
+SECTION_u-boot-edm-staticdev: devel
+PKG_u-boot-edm-staticdev: u-boot-edm-staticdev
+FILES_u-boot-edm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-edm/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-edm-staticdev: 0

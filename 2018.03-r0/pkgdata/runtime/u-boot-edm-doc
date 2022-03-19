@@ -1,0 +1,13 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-edm-doc: i.MX U-Boot suppporting i.MX reference boards.  This package contains documentation.
+SUMMARY_u-boot-edm-doc: Universal Boot Loader for embedded devices - Documentation files
+SECTION_u-boot-edm-doc: doc
+PKG_u-boot-edm-doc: u-boot-edm-doc
+FILES_u-boot-edm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_u-boot-edm-doc: 0

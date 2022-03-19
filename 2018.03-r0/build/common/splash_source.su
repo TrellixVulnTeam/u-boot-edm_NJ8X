@@ -1,0 +1,3 @@
+splash_source.c:112:12:splash_select_fs_dev	8	static
+splash_source.c:64:12:splash_storage_read_raw.isra.2	8	static
+splash_source.c:385:5:splash_source_load	64	static

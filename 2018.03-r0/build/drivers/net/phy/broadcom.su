@@ -1,0 +1,9 @@
+broadcom.c:38:13:bcm_phy_write_misc	32	static
+broadcom.c:166:12:bcm_cygnus_startup	8	static
+broadcom.c:57:12:bcm5461_config	8	static
+broadcom.c:214:12:bcm_cygnus_config	32	static
+broadcom.c:66:12:bcm54xx_parse_status	16	static
+broadcom.c:108:12:bcm54xx_startup	8	static
+broadcom.c:308:12:bcm5482_startup	32	static
+broadcom.c:133:12:bcm5482_config	24	static
+broadcom.c:367:5:phy_broadcom_init	8	static

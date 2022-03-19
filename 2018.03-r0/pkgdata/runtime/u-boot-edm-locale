@@ -1,0 +1,13 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: i.MX U-Boot suppporting i.MX reference boards.
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: base
+PKG_u-boot-edm-locale: u-boot-edm-locale
+FILES_u-boot-edm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-edm-locale: 0

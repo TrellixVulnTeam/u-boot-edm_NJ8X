@@ -1,0 +1,6 @@
+psci-mx7.c:43:15:imx_gpcv2_set_core1_power	0	static
+psci-mx7.c:61:15:imx_enable_cpu_ca7	0	static
+psci-mx7.c:71:14:imx_cpu_on	8	static
+psci-mx7.c:79:14:imx_cpu_off	8	static
+psci-mx7.c:87:15:imx_system_reset	0	static
+psci-mx7.c:97:15:imx_system_off	0	static

@@ -1,0 +1,14 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-edm-dbg: i.MX U-Boot suppporting i.MX reference boards.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-edm-dbg: Universal Boot Loader for embedded devices - Debugging files
+SECTION_u-boot-edm-dbg: devel
+PKG_u-boot-edm-dbg: u-boot-edm-dbg
+ALLOW_EMPTY_u-boot-edm-dbg: 1
+FILES_u-boot-edm-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_u-boot-edm-dbg: 0

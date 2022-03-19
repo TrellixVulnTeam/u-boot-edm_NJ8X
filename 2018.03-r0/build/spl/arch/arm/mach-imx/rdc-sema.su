@@ -1,0 +1,7 @@
+rdc-sema.c:35:5:imx_rdc_check_permission	0	static
+rdc-sema.c:50:5:imx_rdc_sema_lock	0	static
+rdc-sema.c:80:5:imx_rdc_sema_unlock	0	static
+rdc-sema.c:107:5:imx_rdc_setup_peri	0	static
+rdc-sema.c:137:5:imx_rdc_setup_peripherals	16	static
+rdc-sema.c:156:5:imx_rdc_setup_ma	0	static
+rdc-sema.c:170:5:imx_rdc_setup_masters	16	static

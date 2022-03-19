@@ -1,0 +1,9 @@
+DEBUG: Executing python function do_cleansstate
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_deploy.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_package.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_package_qa.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_package_write_rpm.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_packagedata.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm::2018.03:r0::3:*_populate_lic.tgz*
+NOTE: Removing /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/sstate-cache/*/sstate:u-boot-edm:pico_imx7-poky-linux-gnueabi:2018.03:r0:pico_imx7:3:*_populate_sysroot.tgz*
+DEBUG: Python function do_cleansstate finished

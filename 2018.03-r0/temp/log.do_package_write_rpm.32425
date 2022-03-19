@@ -1,0 +1,78 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Removing manifest: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/deploy/rpm/pico_imx7/u-boot-edm-2018.03-r0.pico_imx7.rpm
+DEBUG: Removing manifest: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/deploy/rpm/pico_imx7/u-boot-edm-dev-2018.03-r0.pico_imx7.rpm
+DEBUG: Removing manifest: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/deploy/rpm/pico_imx7/u-boot-edm-dbg-2018.03-r0.pico_imx7.rpm
+DEBUG: Removing manifest: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/deploy/rpm/pico_imx7/
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/neuberfran/projects/edm_yocto/sources/poky/meta/recipes-devtools/rpm/rpm_4.14.1.bb:do_populate_sysroot', 'virtual:native:/home/neuberfran/projects/edm_yocto/sources/poky/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['rpm-native', 'pseudo-native', 'libtool-native', 'elfutils-native', 'gettext-minimal-native', 'popt-native', 'libarchive-native', 'python3-native', 'quilt-native', 'autoconf-native', 'pkgconfig-native', 'nss-native', 'xz-native', 'dbus-native', 'automake-native', 'file-native', 'db-native', 'bzip2-native', 'gnu-config-native', 'texinfo-dummy-native', 'zlib-native', 'e2fsprogs-native', 'lzo-native', 'gdbm-native', 'sqlite3-native', 'readline-native', 'openssl-native', 'm4-native', 'nspr-native', 'autoconf-archive-native', 'expat-native', 'util-linux-native', 'attr-native', 'ncurses-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating EMPTY RPM Package for u-boot-edm-dbg
+NOTE: Not creating empty RPM package for u-boot-edm-staticdev
+NOTE: Creating EMPTY RPM Package for u-boot-edm-dev
+NOTE: Not creating empty RPM package for u-boot-edm-doc
+NOTE: Not creating empty RPM package for u-boot-edm-locale
+NOTE: Creating RPM package for u-boot-edm
+NOTE: Creating RPM package for u-boot-edm
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: pico_imx7-poky-linux
+Building for target pico_imx7-poky-linux
+Processing files: u-boot-edm-2018.03-r0.pico_imx7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: u-boot-edm = 2018.03-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: u-boot-edm-dbg-2018.03-r0.pico_imx7
+Processing files: u-boot-edm-dev-2018.03-r0.pico_imx7
+Checking for unpackaged file(s): /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot-native/usr/bin/../../usr/lib/rpm/check-files /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/package
+Wrote: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-2018.03-r0.pico_imx7.rpm
+Finished binary package job, result 0, filename /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-2018.03-r0.pico_imx7.rpm
+Finished binary package job, result 0, filename (null)
+Finished binary package job, result 0, filename (null)
+Wrote: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-dbg-2018.03-r0.pico_imx7.rpm
+Finished binary package job, result 0, filename /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-dbg-2018.03-r0.pico_imx7.rpm
+Finished binary package job, result 0, filename (null)
+Wrote: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-dev-2018.03-r0.pico_imx7.rpm
+Finished binary package job, result 0, filename /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms/pico_imx7/u-boot-edm-dev-2018.03-r0.pico_imx7.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms for packaging at /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot' -e '/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot-native' -e '/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/hosttools' | tee /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Staging files from /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/deploy-rpms to /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/deploy/rpm
+DEBUG: Python function sstate_task_postfunc finished

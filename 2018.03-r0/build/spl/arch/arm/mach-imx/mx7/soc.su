@@ -1,0 +1,10 @@
+soc.c:122:5:get_cpu_rev	0	static
+soc.c:137:12:get_board_rev	0	static
+soc.c:194:5:ft_system_setup	88	static
+soc.c:230:6:is_usb_boot	0	static
+soc.c:238:5:arch_cpu_init	8	static
+soc.c:271:5:arch_misc_init	0	static
+soc.c:301:6:set_wdog_reset	0	static
+soc.c:343:6:s_init	0	static
+soc.c:355:6:reset_misc	0	static
+soc.c:378:6:reset_cpu	0	static

@@ -1,0 +1,43 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/neuberfran/projects/edm_yocto/sources/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for splash.bmp in paths:
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/fsl-imx-x11
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/fsl-imx-x11
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/fsl-imx-x11
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/pico-imx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/pico-imx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/pico-imx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/uenv
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/uenv
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/uenv
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/mx7d
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/mx7d
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/mx7d
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/imxepdc
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/imxepdc
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/imxepdc
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/imxpxp
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/imxpxp
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/imxpxp
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/mx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/mx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/mx7
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/imx
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/imx
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/imx
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/armv7ve
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/armv7ve
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/armv7ve
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/arm
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/arm
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/arm
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm-2018.03/
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/u-boot-edm/
+    /home/neuberfran/projects/edm_yocto/sources/meta-tn-imx-bsp/recipes-bsp/u-boot/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

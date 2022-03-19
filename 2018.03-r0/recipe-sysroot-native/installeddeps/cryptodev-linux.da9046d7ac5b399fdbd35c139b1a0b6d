@@ -1,0 +1,6 @@
+recipe-sysroot/sysroot-providers/cryptodev-linux
+recipe-sysroot/usr/include/crypto/cryptodev.h
+recipe-sysroot/usr/include/crypto/
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/usr/include/
+recipe-sysroot/usr/

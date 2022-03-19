@@ -1,0 +1,1 @@
+cmd_spl/board/technexion/pico-imx7d/built-in.o :=  arm-poky-linux-gnueabi-ld.bfd     -r -o spl/board/technexion/pico-imx7d/built-in.o spl/board/technexion/pico-imx7d/pico-imx7d.o spl/board/technexion/pico-imx7d/pico-imx7d_spl.o 

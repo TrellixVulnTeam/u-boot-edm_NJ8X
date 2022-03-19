@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot-native/usr/bin/ncurses5-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/neuberfran/projects/edm_yocto/build-x11-pico-imx7/tmp/work/pico_imx7-poky-linux-gnueabi/u-boot-edm/2018.03-r0/recipe-sysroot-native/usr/bin/ncurses5-config'
+exit 1

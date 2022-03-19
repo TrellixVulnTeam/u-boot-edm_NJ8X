@@ -1,0 +1,16 @@
+PN: u-boot-edm
+PV: 2018.03
+PR: r0
+PKGV: 2018.03
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-edm-dev: i.MX U-Boot suppporting i.MX reference boards.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_u-boot-edm-dev: Universal Boot Loader for embedded devices - Development files
+RDEPENDS_u-boot-edm-dev: u-boot-edm (= 2018.03-r0)
+RRECOMMENDS_u-boot-edm-dev: python-dev u-boot-uenv-dev
+SECTION_u-boot-edm-dev: devel
+PKG_u-boot-edm-dev: u-boot-edm-dev
+ALLOW_EMPTY_u-boot-edm-dev: 1
+FILES_u-boot-edm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/u-boot-edm/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_u-boot-edm-dev: 0
